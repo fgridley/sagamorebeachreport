@@ -6,7 +6,14 @@ html {
   background-attachment: fixed;
 }
 
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+.highlight {
+  font-family: 'Raleway', Helvetica, sans-serif; }
+
 #welcomeMessage {
+  font-family: 'Slabo 27px', serif;
   font-size: 48px;
   background-color: white;
   background-blend-mode: lighten;
@@ -25,6 +32,6 @@ html {
 }
 
 .tideData {
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
 }
